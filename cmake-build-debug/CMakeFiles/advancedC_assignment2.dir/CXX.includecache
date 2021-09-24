@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/Arikezz/CLionProjects/advancedC-assignment2/main.cpp
+/cygdrive/c/Users/Arikezz/CLionProjects/advancedC-assignment2/Header Files/Person.h
 iostream
+-
+string
+-
+vector
+-
+
+/cygdrive/c/Users/Arikezz/CLionProjects/advancedC-assignment2/main.cpp
+Header Files/Person.h
+/cygdrive/c/Users/Arikezz/CLionProjects/advancedC-assignment2/Header Files/Person.h
+ctime
 -
 

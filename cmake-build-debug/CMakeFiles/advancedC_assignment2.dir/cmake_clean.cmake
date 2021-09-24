@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/advancedC_assignment2.dir/Source_Files/Person.cpp.o"
   "CMakeFiles/advancedC_assignment2.dir/main.cpp.o"
   "advancedC_assignment2.exe"
   "advancedC_assignment2.pdb"

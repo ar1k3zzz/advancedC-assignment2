@@ -1,1 +1,1 @@
-/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/advancedC_assignment2.dir/main.cpp.o -o advancedC_assignment2.exe -Wl,--out-implib,libadvancedC_assignment2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/advancedC_assignment2.dir/main.cpp.o CMakeFiles/advancedC_assignment2.dir/Source_Files/Person.cpp.o -o advancedC_assignment2.exe -Wl,--out-implib,libadvancedC_assignment2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

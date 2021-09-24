@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/advancedC-assignment2/Header Files/Person.h">
+			<Option target="advancedC_assignment2"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/advancedC-assignment2/Source Files/Person.cpp">
+			<Option target="advancedC_assignment2"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Arikezz/CLionProjects/advancedC-assignment2/main.cpp">
 			<Option target="advancedC_assignment2"/>
 		</Unit>

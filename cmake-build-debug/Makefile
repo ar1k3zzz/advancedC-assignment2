@@ -129,6 +129,30 @@ advancedC_assignment2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/advancedC_assignment2.dir/build.make CMakeFiles/advancedC_assignment2.dir/build
 .PHONY : advancedC_assignment2/fast
 
+Source_Files/Person.o: Source_Files/Person.cpp.o
+.PHONY : Source_Files/Person.o
+
+# target to build an object file
+Source_Files/Person.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advancedC_assignment2.dir/build.make CMakeFiles/advancedC_assignment2.dir/Source_Files/Person.cpp.o
+.PHONY : Source_Files/Person.cpp.o
+
+Source_Files/Person.i: Source_Files/Person.cpp.i
+.PHONY : Source_Files/Person.i
+
+# target to preprocess a source file
+Source_Files/Person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advancedC_assignment2.dir/build.make CMakeFiles/advancedC_assignment2.dir/Source_Files/Person.cpp.i
+.PHONY : Source_Files/Person.cpp.i
+
+Source_Files/Person.s: Source_Files/Person.cpp.s
+.PHONY : Source_Files/Person.s
+
+# target to generate assembly for a file
+Source_Files/Person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advancedC_assignment2.dir/build.make CMakeFiles/advancedC_assignment2.dir/Source_Files/Person.cpp.s
+.PHONY : Source_Files/Person.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... advancedC_assignment2"
+	@echo "... Source_Files/Person.o"
+	@echo "... Source_Files/Person.i"
+	@echo "... Source_Files/Person.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
